@@ -1,7 +1,14 @@
 import React from 'react';
+import Header from './Header';
+import HeroTitle from './HeroTitle';
 
 const Home = () => {
-  return <div>This is home</div>;
+  return (
+    <div>
+      <Header />
+      <HeroTitle />
+    </div>
+  );
 };
 
 export default Home;

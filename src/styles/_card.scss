@@ -1,0 +1,22 @@
+.users__section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  padding: 2rem;
+  grid-gap: 2rem;
+  justify-items: center;
+}
+
+.user__card {
+  width: 25rem;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: cadetblue;
+  color: $clr-white;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+  img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+}
